@@ -21,7 +21,7 @@ cd url-shortener
 
 ### 2️⃣ Install Dependencies
 ```bash
-npm install
+npm install-deps
 ```
 
 ### 3️⃣ Start Redis Server (WSL or Local)
