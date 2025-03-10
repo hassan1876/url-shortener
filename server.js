@@ -6,8 +6,8 @@ const app = express();
 
 connectDB();
 
-import indexRouter from './routes/index.js';
-import router from './routes/urls.js';
+import indexRouter from './src/routes/index.js';
+import router from './src/routes/urls.js';
 
 // Body Parser
 app.use(express.urlencoded({ extended: true }));
