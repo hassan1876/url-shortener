@@ -4,17 +4,21 @@
   "description": "url shortening api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js",
+    "install-deps":"npm install"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
     "i": "^0.3.7",
     "mongoose": "^8.9.5",
     "nanoid": "^5.0.9",
-    "npm": "^11.0.0"
+    "npm": "^11.0.0",
+    "redis": "^4.7.0"
   },
   "type": "module",
   "devDependencies": {
